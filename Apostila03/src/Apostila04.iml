@@ -1,0 +1,10 @@
+package br.com.fiap.model;
+
+public class Produto {
+
+    double preco;
+    int codigo;
+    String nome;
+    boolean disponivel;
+
+}
