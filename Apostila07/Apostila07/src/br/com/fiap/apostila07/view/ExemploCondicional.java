@@ -3,7 +3,7 @@ package br.com.fiap.apostila07.view;
 import javax.swing.*;
 import java.util.Scanner;
 
-public class If_Else {
+public class ExemploCondicional {
 
         public static void main(String[] args) {
 

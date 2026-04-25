@@ -24,13 +24,22 @@ public class ExemploSwitch {
                     JOptionPane.showMessageDialog(null, "resultado: " + resultado);
                     break;
 
+                case "*":
+                    resultado = primeiroNumero / segundoNumero;
+                    JOptionPane.showMessageDialog(null, "resultado: " + resultado);
+                    break;
+
+
                 case "/":
                     resultado = primeiroNumero / segundoNumero;
                     JOptionPane.showMessageDialog(null, "resultado: " + resultado);
                     break;
 
-            }
+                    }//switch
 
-        }
-    }
+
+            }//main
+
+        }//class
+
 

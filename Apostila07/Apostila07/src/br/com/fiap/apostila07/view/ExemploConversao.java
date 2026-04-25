@@ -4,6 +4,9 @@ import javax.swing.*;
 
 public class ExemploConversao {
 
+
+    //IF AND ELSE
+
         public static void main(String[] args) {
             // Calcular a area do retangulo
 
@@ -26,6 +29,7 @@ public class ExemploConversao {
             JOptionPane.showMessageDialog(null, "A área é a seguinte: " +
                     "\n teste" +
                     "\n -> área: " + area);
+
         }
 
     }
