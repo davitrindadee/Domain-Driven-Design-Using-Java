@@ -2,20 +2,22 @@ package br.com.fiap.portalgeral.model;
 
 public class Pessoa {
 
-
     private String nome;
     private String cpf;
     private int idade;
+    private Endereco endereco;
 
     public Pessoa() {
     }
 
+    // Construtor usado no super()
     public Pessoa(String nome, String cpf, int idade) {
         this.nome = nome;
         this.cpf = cpf;
         this.idade = idade;
     }
 
+    // Getters e Setters
     public String getNome() {
         return nome;
     }
@@ -38,5 +40,13 @@ public class Pessoa {
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
     }
 }

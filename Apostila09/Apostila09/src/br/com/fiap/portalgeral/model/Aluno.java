@@ -1,9 +1,6 @@
 package br.com.fiap.portalgeral.model;
 
-import br.com.fiap.portalgeral.model.Pessoa;
-
 public class Aluno extends Pessoa {
-
 
     private int rm;
     private String turma;
@@ -16,7 +13,6 @@ public class Aluno extends Pessoa {
         this.rm = rm;
         this.turma = turma;
     }
-
 
     public int getRm() {
         return rm;
